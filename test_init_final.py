@@ -317,7 +317,8 @@ def init():
 		basicSetting.append(inputData[18][12:])    #basicSetting[14] : 시트 이름
 		basicSetting.append(inputData[19][12:])    #basicSetting[15] : 입력 셀
 		basicSetting.append(inputData[20][13:])    #basicSetting[16] : 출력 셀
-		basicSetting.append(inputData[12][13:])     #basicSetting[17] : 멍삭제횟수
+		basicSetting.append(inputData[12][13:])     #basicSetting[17] : 
+		삭제횟수
 		basicSetting.append(inputData[5][14:])     #basicSetting[18] : kill채널 ID
 		basicSetting.append(inputData[6][16:])     #basicSetting[19] : racing 채널 ID
 		basicSetting.append(inputData[7][14:])     #basicSetting[20] : item 채널 ID
@@ -536,7 +537,7 @@ def init():
 			regenembed.add_field(name=str(outputTimeHour[i]) + '시간', value= '```'+ ', '.join(map(str, sorted(regenbossName[i]))) + '```', inline=False)
 		else :
 			regenembed.add_field(name=str(outputTimeHour[i]) + '시간' + str(outputTimeMin[i]) + '분', value= '```' + ','.join(map(str, sorted(regenbossName[i]))) + '```', inline=False)
-	regenembed.set_footer(text = 'R : 멍 보스')
+	regenembed.set_footer(text = '보스리젠타임')
 
 	##########################################################
 

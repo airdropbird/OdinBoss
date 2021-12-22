@@ -1493,8 +1493,8 @@ class mainCog(commands.Cog):
 					color=0xff00ff
 					)
 			embed.add_field(
-					name="----- 제목 -----",
-					value= '```내용```'
+					name="보스알림봇 관리자",
+					value= '```문의: 귀신길드 잦딘```'
 					)
 			await ctx.send(embed=embed, tts=False)
 		else:

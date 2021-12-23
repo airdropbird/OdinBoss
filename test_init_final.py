@@ -1494,7 +1494,7 @@ class mainCog(commands.Cog):
 					)
 			embed.add_field(
 					name="보스알림봇 관리자",
-					value= '```문의: 귀신길드 잦딘```'
+					value= '```*문의: 귀신길드 잦딘```'
 					)
 			await ctx.send(embed=embed, tts=False)
 		else:
@@ -1966,7 +1966,7 @@ class mainCog(commands.Cog):
 				else :
 					lose_member.append(f"{input_dict[f'{x}']}")
 
-			embed = discord.Embed(title  = "🎲 사다리! 묻고 더블로 가!",
+			embed = discord.Embed(title  = "🎲 사다리게임 🎲",
 				color=0x00ff00
 				)
 			embed.description = f"||```{input_data}\n{''.join(ladder_data)}{' '.join(output_list)}```||"

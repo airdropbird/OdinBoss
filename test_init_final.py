@@ -2261,7 +2261,7 @@ class mainCog(commands.Cog):
 			return
 	
 	@commands.command(name=command[46][0], aliases=command[46][1:])
-	async def playText_(self, ctx):
+	async def playText1_(self, ctx):
 		if ctx.message.channel.id == basicSetting[7]:
 			if basicSetting[21] != "1":
 				return await ctx.send('```보이스를 사용하지 않도록 설정되어 있습니다.```', tts=False)
